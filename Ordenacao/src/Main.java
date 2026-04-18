@@ -4,7 +4,8 @@ public static void main(String[] args){
     int[] lista = {9, 2, 2, 1, 5, 7, 1};
 
     //Ordenando:
-    SelectSort.sort(lista);
+    //SelectSort.sort(lista);
+    InsertSort.sort(lista);
 
     //Mostrar lista:
     for ( int n : lista)
